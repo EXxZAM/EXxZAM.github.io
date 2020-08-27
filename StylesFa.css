@@ -1,0 +1,421 @@
+@font-face {
+    font-family: 'rubiklight';
+    src: url('Vazir.eot');
+    src: url('Vazir.eot?#iefix') format('embedded-opentype'),
+         url('Vazir.woff2') format('woff2'),
+         url('Vazir.woff') format('woff'),
+         url('Vazir.ttf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'english';
+    src: url('rubik-light-webfont.eot');
+    src: url('rubik-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('rubik-light-webfont.woff2') format('woff2'),
+         url('rubik-light-webfont.woff') format('woff'),
+         url('rubik-light-webfont.ttf') format('truetype'),
+         url('rubik-light-webfont.svg#rubiklight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+  direction: rtl;
+  margin: 0px ;
+  font-family: 'rubiklight';
+  font-weight: normal;
+  font-style: normal;
+  }
+.content-upAboutfa p
+{
+  margin-right: 20px;
+}
+.header
+{
+  height: 150px;
+background-color: #ce1620 ;
+
+}
+.header img
+{
+  float:right  ;
+  margin-top: 5px;
+  margin-right: 5px;
+  height: 140px;
+  border-radius: 8px;
+}
+.info {
+  float: right;
+
+  margin-top: 20px;
+
+  margin-right: 10px;
+  width: 60%;
+color: white;
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+.account
+{
+  
+  display: flex;
+  flex-wrap: wrap ;
+  flex-direction: row;
+}
+.account a
+{
+
+  padding: 4px;
+  text-decoration: none;
+  background-color: #242a2e;
+  margin-bottom: 5px;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+font-family: rubiklight;
+
+
+}
+
+.account a:hover
+{
+  background-color: #438eac;
+}
+.styleMenu
+{
+  background-color: black;
+  height: 30px;
+margin: 0 auto;
+padding: 0;
+}
+.styleMenu marquee
+{
+  color: white;
+}
+
+.account a
+{
+  padding: 5px;
+  text-decoration: none;
+  background-color: #242a2e;
+  margin-bottom: 5px;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+margin-left: 5px;
+}
+.content-upAboutfa li
+{
+  text-decoration: none;
+    font-family: 'english';
+}
+.content-upAboutfa
+{
+  margin-right: 10px;
+
+}
+
+.imagelogo
+{
+width: 400px;
+height: 400px;
+  border-radius: 10px;
+  margin-left: 10px;
+  float: left;
+}
+.styleMenu marquee
+{
+  color: white;
+  margin: 0;
+font-size: 15px;
+
+    font-weight: normal;
+    font-style: italic;
+}
+
+.Menu
+{
+  background-color: #eb4c42;
+  height: 50px;
+  padding-top: 0;
+}
+
+.Menu ul
+{
+margin: 0;
+}
+.Menu ul li
+{
+  display: inline-block;
+  padding-right: 30px;
+  margin-top: 15px;
+}
+.Menu ul li a
+{
+
+  margin-top: 30px;
+  text-decoration: none;
+  color: #fff;
+
+  border-radius: 4px;
+}
+.Menu ul li a:hover
+{
+
+  background-color: #a23d54;
+
+}
+
+.content
+{
+  width: 70%;
+  height: 1600px;
+  background-color: #fff;
+  box-shadow: 0 1px 1em rgba(0,0,0,.2);
+  margin: 50px 50px 0 0px;
+  margin-bottom: 50px;
+  float: right;
+}
+
+.content-up iframe
+{
+  margin-top: 100px;
+  margin-right: 20px;
+  border: 3px solid #000;
+}
+.content-up p
+{
+  float: right;
+  margin-top:100px;
+  margin-left: 500px;
+}
+.content-up img
+{
+  margin-left: 15%;
+}
+.content-up a
+{
+  text-decoration: none;
+  float: left;
+  margin-top: 200px;
+  margin-left: 250px;
+  font-size: 14px;
+}
+.content-up a input[type="submit"]
+{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius:  6px;
+  background-color: #dab160 ;
+}
+.content-up a input[type="submit"]:hover
+{
+  background-color: #f49f35;
+}
+.content-up h4
+{
+margin-right:10px;
+  margin-top: 10px;
+text-align: right;
+float: right;
+font-size: 20px;
+}
+.content-up h1
+{
+  margin-right: 20px;
+    margin-top: 100px;
+    float: right;
+  width: 600px;
+    border-bottom: 4px solid #000 ;
+    font-size: 50px;
+}
+.sidebar-up
+{
+  width: 20%;
+  height: 1500px;
+  background-color: #fff;
+  box-shadow: 0 1px 1em rgba(0,0,0,.2);
+  margin: 50px  0 50px;
+  margin-left: 15px;
+  float: left;
+}
+.sidebar-up h4
+{
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 10px;
+}
+
+.sidebar-up input[type=text]
+{
+  font-family: 'rubiklight';
+  padding: 5px;
+  margin-left: 15px;
+  width: 70%;
+
+}
+.sidebar-up input[type=submit]
+{
+  font-family: 'rubiklight';
+  padding: 3px;
+  border-radius: 2px;
+  background-color: #b0c4de;
+  cursor: pointer;
+}
+.sidebar-up input[type=submit]:hover
+{
+
+  background-color: #b0e0e6 ;
+    box-shadow: 0 1px 1em rgba(0,0,0,.1);
+}
+
+.sidebar-center
+{
+  width: 20%;
+  height: 180px;
+  background-color: #fff;
+  box-shadow: 0 1px 1em rgba(0,0,0,.2);
+  margin: 50px  0 50px;
+  margin-left: 15px;
+  margin-top: 2px;
+  float: left;;
+}
+.sidebar-center h4
+{
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 10px;
+}
+
+.sidebar-center input[type=text]
+{
+  font-family: 'rubiklight';
+  padding: 8px;
+  margin-left: 15px;
+  margin-top: 2px;
+  width: 70%;
+
+}
+.sidebar-center input[type=submit]
+{
+  font-family: 'rubiklight';
+  padding: 3px;
+  border-radius: 2px;
+  background-color: #b0c4de;
+  cursor: pointer;
+}
+.sidebar-center input[type=submit]:hover
+{
+
+  background-color: #b0e0e6 ;
+    box-shadow: 0 1px 1em rgba(0,0,0,.1);
+}
+
+.sidebar-down
+{
+  width: 20%;
+  height: 1600px;
+  background-color: #fff;
+  box-shadow: 0 1px 1em rgba(0,0,0,.2);
+  margin-top: 50px;
+  margin-left: 20px;
+
+ 
+float: left;
+}
+.sidebar-down h4
+{
+  font-family: 'rubiklight';
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 10px;
+}
+.sidebar-down img
+{
+  width: 100px;
+  height: 100px;
+   margin-left: 50px;
+
+   float: left;
+}
+
+.textimg2
+{
+ text-decoration: none;
+ color: #952e31;
+ margin-top: 20px;
+ margin-right: 70px;
+float: right;
+ margin-bottom:20px;
+font-family: 'rubiklight';
+text-align: center;
+font-size: 15px;
+}
+.sidebar-down a:hover
+{
+  color: black;
+}
+
+
+.footer{
+  margin-top: 10px;
+  height: 50px;
+  width: 100%;
+  background-color: red;
+  float: left;
+}
+.footer p
+{
+
+color: white;
+text-align: center;
+}
+
+.footer p:hover
+{
+
+color:black;
+}
+@media only screen and (min-width: 1000px) {
+  .sidebar-down
+{
+  width: 20%;
+  height: 1600px;
+  background-color: #fff;
+  box-shadow: 0 1px 1em rgba(0,0,0,.2);
+  margin: 50px  0 50px;
+  margin-left: 15px;
+  margin-top: 50px;
+  float: left;;
+}
+.sidebar-down h4
+{
+  text-align: center;
+  border-bottom: 1px solid #ededed;
+  padding-bottom: 10px;
+}
+.sidebar-down img
+{
+  width: 150px;
+  height: 150px;
+   margin-right: 20px;
+
+   float: right;
+}
+
+.sidebar-down a:hover
+{
+  color: black;
+}
+
+}
