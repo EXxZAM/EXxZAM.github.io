@@ -3,7 +3,13 @@
 * {
     box-sizing: border-box;
 }
-
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 700px;
+    color: black;
+    margin: 0 auto;
+}
 body {
     background-image: url("./spring.jpg");
     background-size: cover;
