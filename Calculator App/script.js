@@ -18,18 +18,7 @@ function subFunc() {
     textArea.value += "-";
 }
 
-function checkOp() {
-    textArea2 = textArea.value;
-    if (textArea2.indexOf("+") > -1) {
-        alert("You Can't Add That Again!");
-    } else if (textArea2.indexOf("+") <= -1){
-        setOperator("+");
-    } else if (textArea2.indexOf("-") > -1) {
-        alert("You Can't Add That Again!");
-    } else if (textArea2.indexOf("-") <= -1){
-        setOperator("-");
-    }
-}
+
 
 function equalFunc() {
     textArea2 = textArea.value;
