@@ -1,0 +1,44 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator App</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <textarea name="" id="textArea" cols="1" rows="1"></textarea>
+        <br />
+        <center>
+            <button class="numberBtn 1" onClick="addToTextArea(1)">1</button>
+            <button class="numberBtn 2" onClick="addToTextArea(2)">2</button>
+            <button class="numberBtn 3" onClick="addToTextArea(3)">3</button>
+            <button class="numberBtn 4" onClick="addToTextArea(4)">4</button>
+            <button class="numberBtn 5" onClick="addToTextArea(5)">5</button>
+            <button class="numberBtn 6" onClick="addToTextArea(6)">6</button>
+            <button class="numberBtn 7" onClick="addToTextArea(7)">7</button>
+            <button class="numberBtn 8" onClick="addToTextArea(8)">8</button>
+            <button class="numberBtn 9" onClick="addToTextArea(9)">9</button>
+
+            <button class="numberBtn 0" onClick="addToTextArea(0)">0</button>
+            <button class="operator plus" onClick="checkOp();">+</button>
+            <button class="operator min" onClick="checkOp();">-</button>
+        </center>
+
+        <center>
+
+
+
+            <button class="equalBtn" onClick="equalFunc()">=</button>
+            <button class="ClearBtn" onClick="textArea.value = '';">Clear</button>
+        </center>
+    </div>
+<center>
+    <h1 class="footer">Made By Mahdi Olamaei</h1>
+</center>
+</body>
+
+</html>
