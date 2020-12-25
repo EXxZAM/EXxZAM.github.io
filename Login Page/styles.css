@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:wght@200;400;600;&display=swap");
+
+/* 
+colors:
+#2D667D
+#CAD1D7
+#656370
+#75828E
+#6A6C6C
+#969297
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #b3cdd1;
+  background-image: linear-gradient(315deg, #b3cdd1 0%, #9fa4c4 74%);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: white;
+  height: 37rem;
+  width: 20rem;
+  box-shadow: 1px 0px 10px #969297;
+  position: relative;
+  text-align: center;
+
+  padding: 0;
+  margin: 0;
+}
+
+.earthImage {
+  width: 100%;
+  height: auto;
+
+  padding: 0;
+  margin: 0;
+}
+
+.image p {
+  position: absolute;
+}
+.welcome {
+  margin: 0;
+
+  text-align: center;
+  font-size: 1.3rem;
+  top: 7rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  text-shadow: 0px 1px 7px #000000;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text-image {
+  margin: 0;
+  top: 10rem;
+  color: white;
+  font-size: 0.8rem;
+  text-shadow: 3px 0px 2px #1e1f1f;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.form {
+  display: block;
+  border-top: 1px solid #22c6c8;
+}
+
+.form button {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+
+  font-size: 1.2rem;
+
+ 
+  outline: none;
+  margin-bottom: 30px;
+}
+
+.loginBtn {
+    width: 49%;
+  color: #cad1d7;
+  margin-top: 0;
+  display: inline-block;
+  border: none;
+  font-weight: bolder;
+}
+
+.signupBtn {
+width: 49%;
+  color: #cad1d7;
+  display: inline-block;
+  border: none;
+  font-weight: bolder;
+}
+
+.active {
+  border-top: 3px solid #22c6c8;
+  color: #22c6c8;
+}
+
+.loginBtn:hover {
+  color: #6dc4c5;
+  
+}
+.signupBtn:hover {
+  color: #6dc4c5;
+  
+}
+.input {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.userInput,
+.passInput {
+  padding: 0;
+  margin: 0;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  width: 18rem;
+  height: 2.5rem;
+  border: 1px solid rgba(109, 109, 109, 0.582);
+  border-radius: 0.2rem;
+}
+
+.rememberMe {
+  padding: 0;
+  margin: 0;
+}
+
+.rememberLabel {
+  color: #85888b;
+
+  font-size: 0.8rem;
+}
+
+.forgetPass {
+  padding: 0;
+  margin: 0;
+  color: #6dc4c5;
+  font-weight: bolder;
+  margin-left: 60px;
+
+  font-size: 0.8rem;
+ 
+}
+.normalSign {
+   
+    margin-top: 20px;
+    background: #4a9192;
+}
+.signinBtn {
+   
+
+  height: 50px;
+
+  width: 90%;
+  
+  
+  border: 0;
+  color: white;
+  font-weight: normal;
+}
+
+.facebookSign {
+    margin: 0;
+    padding: 0;
+   
+    background: #4267B2;
+}
+.lastLine{
+    margin: -20;
+    color: rgba(151, 151, 151, 0.952);
+    font-size: 15px;
+    
+}
+
+.normalSign:active {
+    margin-top: 19px;
+    color: #22c6c8;
+  }
+  .facebookSign:active {
+    color: #22c6c8;
+    margin-top: 1;
+  }
+  .normalSign:hover {
+    color: #6dc4c5;
+    
+  }
+  .facebookSign:hover {
+    color: #6dc4c5;
+    
+  }
