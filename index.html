@@ -1,40 +1,367 @@
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <center>
-      <div class="container">
-        <h1>Seyed Mahdi Olamaei</h1>
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Page</title>
+<meta name="generator" content="WYSIWYG Web Builder 16 - https://www.wysiwygwebbuilder.com">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="font-awesome.min.css" rel="stylesheet">
+<link href="Untitled1.css" rel="stylesheet">
+<link href="index.css" rel="stylesheet">
+<script src="jquery-1.12.4.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="wb.panel.min.js"></script>
+<link rel="stylesheet" href="magnificpopup/magnific-popup.css">
+<script src="magnificpopup/jquery.magnific-popup.min.js"></script>
+<script>
+$(document).ready(function()
+{
+   $("a[href*='#header']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_header').offset().top }, 600, 'easeInSine');
+   });
+   $("#PanelMenu1").panel({animate: true, animationDuration: 200, animationEasing: 'linear', dismissible: true, display: 'overlay', position: 'right', toggle: true, overlay: true});
+   $("a[href*='#LayoutGrid4']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid4').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   $("a[href*='#LayoutGrid2']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_LayoutGrid2').offset().top-88 }, 600, 'easeOutCirc');
+   });
+   $("a[data-rel='gallery']").attr('rel', 'gallery');
+   $("#gallery").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
+   $("a[data-rel='PhotoGallery1']").attr('rel', 'PhotoGallery1');
+   $("#PhotoGallery1").magnificPopup({delegate:'a', type:'image', gallery: {enabled: true, navigateByImgClick: true}});
+   $("a[href*='#about']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#about').offset().top-50 }, 600, 'easeInQuad');
+   });
+   $("a[href*='#contact']").click(function(event)
+   {
+      event.preventDefault();
+      $('html, body').stop().animate({ scrollTop: $('#wb_contact').offset().top }, 600, 'easeOutCubic');
+   });
+});
+</script>
+</head>
+<body>
+<div id="wb_header">
+<div id="header">
+<div class="row">
+<div class="col-1">
+<div id="wb_headerIcon1" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:0;">
+<a href="./index.html"><div id="headerIcon1"><i class="fa fa-phone"></i></div></a>
+</div>
+<label for="" id="headerLabel1" style="display:inline-block;width:131px;line-height:17px;z-index:1;">021-88372520</label>
+</div>
+<div class="col-2">
+<div id="wb_headerIcon2" style="display:inline-block;width:24px;height:33px;text-align:center;z-index:2;">
+<a href="./index.html"><div id="headerIcon2"><i class="fa fa-clock-o"></i></div></a>
+</div>
+<label for="" id="headerLabel2" style="display:inline-block;width:106px;line-height:17px;z-index:3;">8:00 - 17:00</label>
+</div>
+<div class="col-3">
+<div id="wb_Text1">
+<span style="color:#FFFFFF;font-family:Arial;font-size:19px;"><strong><br>شهرک غرب - خیابان سیمای ایران - روبروی کوچه هفتم</strong></span>
+</div>
+</div>
+<div class="col-4">
+<div id="wb_headerIcon3" style="display:inline-block;width:24px;height:40px;text-align:center;z-index:5;">
+<a href="https://goo.gl/maps/L8kUkaVtbivrEu4e6" title="Location"><div id="headerIcon3"><i class="fa fa-map-marker"></i></div></a>
+</div>
+<div id="wb_headerIcon4" style="display:inline-block;width:24px;height:40px;text-align:center;z-index:6;">
+<a href="https://t.me/informatictehran" title="Telegram"><div id="headerIcon4"><i class="fa fa-telegram"></i></div></a>
+</div>
+<div id="wb_headerIcon5" style="display:inline-block;width:24px;height:40px;text-align:center;z-index:7;">
+<a href="www.aparat.com/informatic.tehran" title="Aparat"><div id="headerIcon5"><i class="fa fa-film"></i></div></a>
+</div>
+<div id="wb_headerIcon6" style="display:inline-block;width:24px;height:40px;text-align:center;z-index:8;">
+<a href="instagram.com/informatic.tehran" title="Instagram"><div id="headerIcon6"><i class="fa fa-instagram"></i></div></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid1">
+<div id="LayoutGrid1">
+<div class="row">
+<div class="col-1">
+</div>
+<div class="col-2">
+<div id="wb_Heading1" style="display:inline-block;width:100%;z-index:9;">
+<h1 id="Heading1">YOURWEBSITE.COM</h1>
+</div>
+</div>
+<div class="col-3">
+<div id="wb_PanelMenu1" style="display:inline-block;width:63px;height:70px;text-align:right;z-index:10;">
+<a href="#PanelMenu1_markup" id="PanelMenu1">&nbsp;</a>
+<div id="PanelMenu1_markup">
+<ul role="menu">
+   <li role="menuitem"><a href="#" class="nav-link"><i class="fa fa-home fa-fw"></i><span>Home</span></a></li>
+   <li role="menuitem"><a href="#" class="nav-link"><i class="fa fa-user fa-fw"></i><span>About Me</span></a></li>
+   <li role="menuitem"><a href="#" class="nav-link"><i class="fa fa-camera fa-fw"></i><span>Gallery</span></a></li>
+   <li role="menuitem"><a href="#" class="nav-link"><i class="fa fa-pencil fa-fw"></i><span>Blog</span></a></li>
+   <li role="menuitem"><a href="#" class="nav-link"><i class="fa fa-link fa-fw"></i><span>Links</span></a></li>
+</ul>
+</div>
 
-        <ul>
-          <h2>Java Script Projects!</h2>
-          <li>
-            <a href="Countdown/"><h3>Count Down</h3></a>
-          </li>
-          <li>
-            <a href="Quiz App/"><h3>Quiz App</h3></a>
-          </li>
-          <li>
-            <a href="Password Generator/"><h3>Password Generator</h3></a>
-          </li>
-          <li>
-            <a href="Calculator App/"><h3>Calculator App</h3></a>
-          </li>
-          <li>
-            <a href="Login Page/"><h3>Login and SignUp Page</h3></a>
-          </li>
-          <li>
-            <a href="StopWatch/"><h3>Stop Watch</h3></a>
-          </li>
-          <li>
-            <a href="BookList App/"><h3>BookList App</h3></a>
-          </li>
-        </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_BlockQuote">
+<div id="BlockQuote-overlay"></div>
+<div id="BlockQuote">
+<div class="row">
+<div class="col-1">
+<div id="wb_Quote">
+<span style="color:#000000;font-family:Arial;font-size:16px;"><em>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero.</em></span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Divider5">
+<div id="Divider5">
+<hr id="DividerLine8" style="display:block;">
+<div id="wb_Heading3" style="display:inline-block;width:431px;z-index:13;">
+<h2 id="Heading3">امکانات هنرستان هوشمند انفورماتیک تهران </h2>
+</div>
+<hr id="DividerLine9" style="display:block;">
+</div>
+</div>
+<div id="wb_LayoutGrid4">
+<div id="LayoutGrid4">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card7" style="display:flex;width:100%;z-index:15;">
+   <div id="Card7-card-body">
+      <div id="Card7-card-item0"><a href="https://it-school.ir/%d9%86%d8%b1%d9%85-%d8%a7%d9%81%d8%b2%d8%a7%d8%b1-%d8%a7%d8%aa%d9%88%d9%85%d8%a7%d8%b3%db%8c%d9%88%d9%86-%d8%af%d8%a7%d9%86%d8%b4-%d8%a2%d9%85%d9%88%d8%b2%db%8c/" title="&#1606;&#1585;&#1605; &#1575;&#1601;&#1586;&#1575;&#1585; &#1575;&#1578;&#1608;&#1605;&#1575;&#1587;&#1740;&#1608;&#1606; &#1583;&#1575;&#1606;&#1588; &#1570;&#1605;&#1608;&#1586;&#1740;"><i class="fa fa-graduation-cap"></i></a></div>
+      <div id="Card7-card-item1">نرم افزار اتوماسیون<br> دانش آموزی</div>
+      <div id="Card7-card-item2">ولیای عزیز از امروز می توانید براحتی و در هر زمان و مکان آخرین وضعیت تحصیلی و انضباطی دانش آموز خود را روی تلفن همراه و تبلت خود مشاهده کنید و با دبیران و مسئولین مدرسه بصورت خصوصی در ارتباط...</div>
+   </div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card8" style="display:flex;width:100%;z-index:16;">
+   <div id="Card8-card-body">
+      <div id="Card8-card-item0"><a href="https://it-school.ir/%da%a9%d9%84%d8%a7%d8%b3-%d9%87%d9%88%d8%b4%d9%85%d9%86%d8%af-%d9%87%d9%86%d8%b1%d8%b3%d8%aa%d8%a7%d9%86-%d9%87%d9%88%d8%b4%d9%85%d9%86%d8%af-%d8%a7%d9%86%d9%81%d9%88%d8%b1%d9%85%d8%a7%d8%aa%db%8c/" title="&#1705;&#1604;&#1575;&#1587; &#1607;&#1608;&#1588;&#1605;&#1606;&#1583; &#1608; &#1570;&#1605;&#1608;&#1586;&#1588; &#1570;&#1606;&#1604;&#1575;&#1740;&#1606;"><i class="fa fa-television"></i></a></div>
+      <div id="Card8-card-item1">کلاس هوشمند<br> و آموزش آنلاین</div>
+      <div id="Card8-card-item2">کلاس های هنرستان هوشمند انفورماتیک تهران مجهز به: لپ تاپ ، ویدئو پروژکتور ، برد هوشمند ، اینترنت و امکانات کلاس آنلاین و آزمون آنلاین بوده و آموزش از طریق محتوای الکترونیکی، ویدیو، پاورپوینت و … انجام میشود.  در زمان […]<br><br></div>
+   </div>
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Card9" style="display:flex;width:100%;z-index:17;">
+   <div id="Card9-card-body">
+      <div id="Card9-card-item0"><a href="https://it-school.ir/%d8%a7%d9%85%da%a9%d8%a7%d9%86%d8%a7%d8%aa-%d9%88%d8%b1%d8%b2%d8%b4%db%8c-%d9%87%d9%86%d8%b1%d8%b3%d8%aa%d8%a7%d9%86-%d9%87%d9%88%d8%b4%d9%85%d9%86%d8%af-%d8%a7%d9%86%d9%81%d9%88%d8%b1%d9%85%d8%a7/" title="&#1587;&#1575;&#1604;&#1606; &#1608;&#1585;&#1586;&#1588;&#1740; &#1608; &#1578;&#1601;&#1585;&#1740;&#1581;&#1740;"><i class="fa fa-futbol-o"></i></a></div>
+      <div id="Card9-card-item1">سالن ورزشی و تفریحی</div>
+      <div id="Card9-card-item2">سال ورزشی و تفریحی هنرستان  سالن ورزشی و تفریحی با امکانات بوکس، ایت بال، ایرهاکی، دارت، پینگ پنگ، فوتبال دستی، شطرنج، فوتبال، والیبال همچنین هنرجویان علاقه مند به ورزش میتوانند با ورود به تیم های ورزشی مدرسه از امکانات زیر […]</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid2">
+<div id="LayoutGrid2">
+<div class="row">
+<div class="col-1">
+<div class="col-1-padding">
+<div id="wb_Card1" style="display:flex;width:100%;z-index:18;">
+   <div id="Card1-card-body">
+      <div id="Card1-card-item0"><a href="https://it-school.ir/%d8%ad%d8%b6%d9%88%d8%b1-%d9%88-%d8%ba%db%8c%d8%a7%d8%a8-%d9%87%d9%88%d8%b4%d9%85%d9%86%d8%af/" title="&#1581;&#1590;&#1608;&#1585; &#1608; &#1594;&#1740;&#1575;&#1576; &#1607;&#1608;&#1588;&#1605;&#1606;&#1583;"><i class="fa fa-mobile"></i></a></div>
+      <div id="Card1-card-item1">حضور و غیاب هوشمند</div>
+      <div id="Card1-card-item2">اطلاع اولیا از تردد فرزندشان با سیستم حضور و غیاب هوشمند هنرجویان در زمان ورود و خروج از هنرستان هوشمند انفورماتیک تهران با ثبت اثر انگشت در دستگاه حضور و غیاب زمان ورود و خروج خود را از طریق اپلیکشین […]</div>
+   </div>
+</div>
+</div>
+</div>
+<div class="col-2">
+<div class="col-2-padding">
+<div id="wb_Card2" style="display:flex;width:100%;z-index:19;">
+   <div id="Card2-card-body">
+      <div id="Card2-card-item0"><a href="https://it-school.ir/%d8%aa%d8%ac%d9%87%db%8c%d8%b2%d8%a7%d8%aa-%d8%b1%d8%b4%d8%aa%d9%87-%d9%86%d9%82%d8%b4%d9%87-%da%a9%d8%b4%db%8c-%d9%85%d8%b9%d9%85%d8%a7%d8%b1%db%8c/" title="&#1705;&#1575;&#1585;&#1711;&#1575;&#1607; &#1607;&#1575; &#1608; &#1578;&#1580;&#1607;&#1740;&#1586;&#1575;&#1578; &#1662;&#1740;&#1588;&#1585;&#1601;&#1578;&#1607; &#1585;&#1588;&#1578;&#1607; &#1606;&#1602;&#1588;&#1607; &#1705;&#1588;&#1740; &#1605;&#1593;&#1605;&#1575;&#1585;&#1740;"><i class="fa fa-camera"></i></a></div>
+      <div id="Card2-card-item1">کارگاه های <br>نقشه کشی معماری</div>
+      <div id="Card2-card-item2">کارگاه ها و تجهیزات پیشرفته رشته نقشه کشی معماری امکانات زیادی مثل کارگاه نقشه کشی معماری ، کارگاه ماکت سازی ، ملزومات درس شناخت مواد و مصالح و تجهیزات پیشرفته و مدرن نقشه برداری جهت استفاده هنرجویان رشته نقشه کشی […]</div>
+   </div>
+</div>
+</div>
+</div>
+<div class="col-3">
+<div class="col-3-padding">
+<div id="wb_Card3" style="display:flex;width:100%;z-index:20;">
+   <div id="Card3-card-body">
+      <div id="Card3-card-item0"><a href="https://it-school.ir/%d8%b5%d8%a8%d8%ad%d8%a7%d9%86%d9%87-%d8%af%d8%a7%d9%86%d8%b4-%d8%a2%d9%85%d9%88%d8%b2%db%8c/" title="&#1591;&#1585;&#1581; &#1578;&#1594;&#1584;&#1740;&#1607; &#1587;&#1575;&#1604;&#1605;"><i class="fa fa-heart"></i></a></div>
+      <div id="Card3-card-item1">طرح تغذیه سالم</div>
+      <div id="Card3-card-item2">سیستم اعتباری بوفه مدارس و طرح تغذیه سالم دانش آموزان 1-سیستم اعتباری بوفه مدارس: • رعایت بهداشت دانش آموز با توجه یه عدم تماس با اسکناس • خرید داش آموز صرفا از بوفه امکان پذیر می باشد • محدود کردن […]</div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_Divider3">
+<div id="Divider3">
+<hr id="DividerLine3" style="display:block;">
+<hr id="DividerLine4" style="display:block;">
+</div>
+</div>
+<div id="wb_galleryGrid">
+<div id="galleryGrid">
+<div class="row">
+<div class="col-1">
+<div id="wb_galleryHeading1" style="display:inline-block;width:100%;z-index:24;">
+<h1 id="galleryHeading1">دیوار خاطرات هنرستان هوشمند انفورماتیک تهران<br><br></h1>
+</div>
+<div id="wb_gallery" style="display:inline-block;width:100%;z-index:25;">
+<div id="gallery">
+   <div class="thumbnails">
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number1.png" data-rel=""><img alt="" src="images/number1.png" class="image"></a>
+</div>
       </div>
-    </center>
-  </body>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number2.png" data-rel=""><img alt="" src="images/number2.png" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number3.png" data-rel=""><img alt="" src="images/number3.png" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number4.png" data-rel=""><img alt="" src="images/number4.png" class="image"></a>
+</div>
+      </div>
+      <div class="clearfix visible-col4"></div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number5.png" data-rel=""><img alt="" src="images/number5.png" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number6.png" data-rel=""><img alt="" src="images/number6.png" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number7.png" data-rel=""><img alt="" src="images/number7.png" class="image"></a>
+</div>
+      </div>
+      <div class="thumbnail">
+<div class="frame">
+         <a href="images/number8.png" data-rel=""><img alt="" src="images/number8.png" class="image"></a>
+</div>
+      </div>
+      <div class="clearfix visible-col4"></div>
+   </div>
+</div>
+</div>
+
+<div id="wb_Divider1">
+<div id="Divider1-overlay"></div>
+<div id="Divider1">
+<div class="row">
+<div class="col-1">
+<hr id="DividerLine1" style="display:block;width: 100%;z-index:23;">
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wb_galleryPhotoGrid">
+<div id="galleryPhotoGrid">
+<div class="row">
+<div class="col-1">
+<div id="wb_Heading2" style="display:inline-block;width:100%;z-index:28;">
+<h1 id="Heading2">اخبار و اطلاعیه های هنرستان<br></h1>
+</div>
+<div id="wb_PhotoGallery1" style="display:inline-block;width:100%;z-index:29;">
+<div id="PhotoGallery1">
+   <div class="thumbnails">
+      <div class="thumbnail">
+         <a href="images/number1.png" data-rel="" title="Photo Number 1"><img alt="Photo Number 1" src="images/number1.png" class="image" title="Photo Number 1"></a>
+<div class="caption">Photo Number 1<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
+</div>
+      </div>
+      <div class="thumbnail">
+         <a href="images/number2.png" data-rel="" title="Photo Number 2"><img alt="Photo Number 2" src="images/number2.png" class="image" title="Photo Number 2"></a>
+<div class="caption">Photo Number 2<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
+</div>
+      </div>
+      <div class="thumbnail">
+         <a href="images/number3.png" data-rel="" title="Photo Number 3"><img alt="Photo Number 3" src="images/number3.png" class="image" title="Photo Number 3"></a>
+<div class="caption">Photo Number 3<div class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero.</div>
+</div>
+      </div>
+      <div class="clearfix visible-col3"></div>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="about" style="position:relative;text-align:center;width:100%;height:332px;float:left;clear:left;display:block;z-index:48;">
+<div id="about_Container" style="width:970px;position:relative;margin-left:auto;margin-right:auto;text-align:left;">
+<div id="wb_Shape1" style="position:absolute;left:404px;top:215px;width:163px;height:39px;z-index:31;">
+<a href="#team"><img class="hover" src="images/img0001_hover.png" alt="" style="border-width:0;width:163px;height:39px;"><span class="default"><img src="images/img0001.png" id="Shape1" alt="" style="width:163px;height:39px;"></span></a></div>
+<div id="wb_Text3" style="position:absolute;left:138px;top:75px;width:695px;height:107px;text-align:center;z-index:32;">
+<span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:27px;"><strong>ABOUT</strong></span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:21px;"><br><br>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio</span><span style="color:#FFFFFF;font-family:'Trebuchet MS';font-size:13px;">. <br>Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.</span></div>
+</div>
+</div>
+<div id="wb_contact">
+<div id="contact">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text4">
+<span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;"><strong><br></strong></span><span style="color:#FFFFFF;font-family:'B Baran';font-size:19px;"><strong>:درباره</strong><br></span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;">هنرستان انفورمات</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">یک تهران به عنوان اولی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;">ن هنرستان غ</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;">ر دولت</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;"> در رشته کامپ</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;">وتر در سال ۱۳۷۳ تاس</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;">س شد و با افزا</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;">ش رشته ها</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;"> معمار</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;"> و حسابدار</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;"> تا کنون به کار خود ادامه داده است<br>ما در هنرستان به ۲ مهارت اهم</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;">ت م</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;">ده</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;">م<br>مهارت زندگ</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;"> : </span><span style="color:#9C9C9C;font-family:'B Baran';font-size:17px;">شامل اخلاق و ادب و فرهنگ و آ</span><span style="color:#9C9C9C;font-family:Arial;font-size:17px;">یی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:17px;">ن رفتار</span><span style="color:#9C9C9C;font-family:Arial;font-size:17px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:17px;"> آ</span><span style="color:#9C9C9C;font-family:Arial;font-size:17px;">یی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:17px;">ن نگارش خط و فن ب</span><span style="color:#9C9C9C;font-family:Arial;font-size:17px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:17px;">ان<br></span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;">مهارت ها</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;"> فن</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;"> و حرفه ا</span><span style="color:#9C9C9C;font-family:Arial;font-size:19px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:19px;">: </span><span style="color:#9C9C9C;font-family:'B Baran';font-size:17px;">رشته ها</span><span style="color:#9C9C9C;font-family:Arial;font-size:17px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:17px;"> تخصص</span><span style="color:#9C9C9C;font-family:Arial;font-size:17px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:17px;"> هنرجو</span><span style="color:#9C9C9C;font-family:Arial;font-size:17px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:17px;">ان برا</span><span style="color:#9C9C9C;font-family:Arial;font-size:17px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:17px;"> اشتغال فرزندانمان و کمک به چرخه صنعت کشورمان م</span><span style="color:#9C9C9C;font-family:Arial;font-size:17px;">ی</span><span style="color:#9C9C9C;font-family:'B Baran';font-size:17px;"> باشد </span>
+</div>
+</div>
+<div class="col-2">
+<div id="wb_Image1" style="display:inline-block;width:100%;height:auto;z-index:34;">
+<a href="https://goo.gl/maps/L8kUkaVtbivrEu4e6"><img src="Web_capture_31-3-2021_145714_www.google.com_440x330.jpeg" id="Image1" alt="" title="Location on Google Map"></a>
+</div>
+</div>
+<div class="col-3">
+<input type="text" id="Editbox1" style="display:block;width: 100%;height:30px;z-index:35;" name="Editbox1" value="" spellcheck="false" placeholder="Email">
+<textarea name="TextArea1" id="TextArea1" style="display:block;width: 100%;;height:88px;z-index:36;" rows="4" cols="33" autocomplete="off" spellcheck="false"></textarea>
+<input type="reset" id="Button1" name="" value="ارسال نظر" style="display:block;width: 100%;;height:34px;z-index:37;">
+</div>
+</div>
+</div>
+</div>
+<div id="wb_LayoutGrid3">
+<div id="LayoutGrid3">
+<div class="row">
+<div class="col-1">
+<div id="wb_Text7">
+<span style="color:#979797;font-family:Arial;font-size:13px;">Designed by: ~MAHDI~ @Arash ^JaVaD^</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
 </html>
