@@ -2,7 +2,7 @@ body
 {
    background-color: #FFFFFF;
    color: #000000;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-size: 13px;
    line-height: 1.1875;
@@ -269,7 +269,7 @@ input:focus, textarea:focus, select:focus
    color: #F7F7F7;
    border: 0px solid #2E2E2E;
    background-color: #262626;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -280,7 +280,7 @@ input:focus, textarea:focus, select:focus
    color: #F7F7F7;
    border: 0px solid #2E2E2E;
    background-color: #0C0C0C;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-size: 13px;
    font-style: normal;
@@ -358,7 +358,7 @@ input:focus, textarea:focus, select:focus
 #Heading1
 {
    color: #FFFFFF;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: bold;
    font-style: normal;
    font-size: 32px;
@@ -413,7 +413,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    color: #FFFFFF;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 15px;
@@ -471,7 +471,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    color: #FFFFFF;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 15px;
@@ -802,7 +802,7 @@ input:focus, textarea:focus, select:focus
 #Heading3
 {
    color: #000000;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: bold;
    font-style: normal;
    font-size: 29px;
@@ -965,7 +965,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    color: #007BFF;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 53px;
@@ -990,7 +990,7 @@ input:focus, textarea:focus, select:focus
    margin: -32px 0px 0px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: bold;
    font-style: normal;
    font-size: 24px;
@@ -1002,7 +1002,7 @@ input:focus, textarea:focus, select:focus
    margin: 20px 20px 30px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -1042,7 +1042,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    color: #007BFF;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 53px;
@@ -1067,7 +1067,7 @@ input:focus, textarea:focus, select:focus
    margin: -32px 0px 0px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: bold;
    font-style: normal;
    font-size: 24px;
@@ -1079,7 +1079,7 @@ input:focus, textarea:focus, select:focus
    margin: 20px 20px 30px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -1119,7 +1119,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    color: #007BFF;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 53px;
@@ -1144,7 +1144,7 @@ input:focus, textarea:focus, select:focus
    margin: -32px 0px 0px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: bold;
    font-style: normal;
    font-size: 24px;
@@ -1156,7 +1156,7 @@ input:focus, textarea:focus, select:focus
    margin: 20px 20px 30px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -1298,7 +1298,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    color: #007BFF;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 53px;
@@ -1323,7 +1323,7 @@ input:focus, textarea:focus, select:focus
    margin: -32px 0px 0px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: bold;
    font-style: normal;
    font-size: 24px;
@@ -1335,7 +1335,7 @@ input:focus, textarea:focus, select:focus
    margin: 20px 20px 30px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -1375,7 +1375,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    color: #007BFF;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 53px;
@@ -1400,7 +1400,7 @@ input:focus, textarea:focus, select:focus
    margin: -32px 0px 0px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: bold;
    font-style: normal;
    font-size: 24px;
@@ -1412,7 +1412,7 @@ input:focus, textarea:focus, select:focus
    margin: 20px 20px 30px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -1452,7 +1452,7 @@ input:focus, textarea:focus, select:focus
    background-color: transparent;
    background-image: none;
    color: #007BFF;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 53px;
@@ -1477,7 +1477,7 @@ input:focus, textarea:focus, select:focus
    margin: -32px 0px 0px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: bold;
    font-style: normal;
    font-size: 24px;
@@ -1489,7 +1489,7 @@ input:focus, textarea:focus, select:focus
    margin: 20px 20px 30px 80px;
    padding: 0;
    color: #282828;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -1708,7 +1708,7 @@ input:focus, textarea:focus, select:focus
 #galleryHeading1
 {
    color: #888888;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: bold;
    font-style: normal;
    font-size: 24px;
@@ -1812,7 +1812,7 @@ input:focus, textarea:focus, select:focus
 #PhotoGallery1 .caption
 {
    color: #969696;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: bold;
    font-size: 15px;
    font-style: normal;
@@ -1879,7 +1879,7 @@ input:focus, textarea:focus, select:focus
 #Heading2
 {
    color: #888888;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: bold;
    font-style: normal;
    font-size: 24px;
@@ -2131,7 +2131,7 @@ input:focus, textarea:focus, select:focus
    background-color: #252525;
    background-image: none;
    color: #9C9C9C;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -2153,7 +2153,7 @@ input:focus, textarea:focus, select:focus
    background-color: #252525;
    background-image: none;
    color: #9C9C9C;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -2176,7 +2176,7 @@ input:focus, textarea:focus, select:focus
    background-color: #F97352;
    background-image: none;
    color: #FFFFFF;
-   font-family: Arial;
+   font-family: Vazir;
    font-weight: normal;
    font-style: normal;
    font-size: 13px;
@@ -2333,7 +2333,7 @@ input:focus, textarea:focus, select:focus
     border-radius: 50%;
     color: #FFFFFF;
 	content: "+";
-	font-family: Arial;
+	font-family: Vazir;
 	font-size: 32px;
 	font-weight: 100;
 	height: 50px;
